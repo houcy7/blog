@@ -227,7 +227,7 @@
     },
     methods: {
       cover() {
-          this.$axios.get('http://dawn.houcy7.com/bing').then(res => {
+          this.$axios.get('https://dawn.houcy7.com/bing').then(res => {
             this.backgroundPicture = 'https://cn.bing.com' + res.data.images[0].url;
           }).catch(error => {
             this.backgroundPicture = this.$themeConfig.covers[new Date().getDay()] || "https://pan.zealsay.com/zealsay/cover/1.jpg"
