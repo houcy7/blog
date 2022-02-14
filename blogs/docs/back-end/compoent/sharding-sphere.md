@@ -7,6 +7,8 @@ tags:
  
 categories:
  -  后端
+publish: false
+
 ---
 
 `Apache ShardingSphere(Incubator) `是一套开源的分布式数据库中间件解决方案组成的生态圈，它由`Sharding-JDBC`、`Sharding-Proxy`和`Sharding-Sidecar（规划中）`这3款相互独立，却又能够混合部署配合使用的产品组成。它们均提供标准化的`数据分片`、`分布式事务`和`数据库治理功能`，可适用于如`Java同构`、`异构语言`、`云原生`等各种多样化的应用场景

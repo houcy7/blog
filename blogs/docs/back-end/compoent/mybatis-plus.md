@@ -7,6 +7,8 @@ tags:
  
 categories:
  -  后端
+publish: false
+
 ---
 
 [MyBatis-Plus](https://mp.baomidou.com/)（简称 MP）是一个 `MyBatis` 的增强工具，在 `MyBatis` 的基础上只做增强不做改变，为简化开发、提高效率而生。可以生成简单的增删改查，并方便扩展，减少xml文件的编写，降低编码难度

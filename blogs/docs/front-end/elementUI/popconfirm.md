@@ -6,6 +6,8 @@ tags:
  - ElementUI
 categories:
  -  前端
+publish: false
+
 ---
 
 气泡确认框和对话框实现类似，一般应用在需要二次确认的关键按钮上。要触发确认框的html元素需要绑定reference插槽
