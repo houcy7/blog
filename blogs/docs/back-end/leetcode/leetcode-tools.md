@@ -40,10 +40,21 @@ categories:
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lmzt50kj21c00u0dlc.jpg)
 
 8.发布解题笔记
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lp6elwnj20ve0hgacm.jpg)
 
+9.github actions
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lq6k5szj22520u0gq6.jpg)
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lsmz9vtj221o0u042e.jpg)
+
+10.博客展示效果
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00ltofubsj21c00u0q8t.jpg)
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lvc9j2hj20u01vvn29.jpg)
+点击链接后跳转页面
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lvyv922j21c00u00w0.jpg)
 
 
 
 ## 相关链接
 [MakerHu的博客-爬虫实现力扣(LeetCode)本地刷题的快捷工具](https://blog.makerhu.com/posts/fe73207c.html)
+[leetcodeTools](https://github.com/houcy7/LeetcodeTools)
 
