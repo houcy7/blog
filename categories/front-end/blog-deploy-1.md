@@ -1,15 +1,17 @@
 ---
 title: 博客的搭建 - 上
-date: 2021-03-04
-cover: https://zyj_yida.gitee.io/source/img/indexbg/52.jpg
-categories:
-  - 博客搭建
-subSidebar: 'auto'
+date: 2022-04-06 00:34:51
 tags:
- - 博客
  - 前端
-sticky: 1
+ - 博客
+
+categories:
+ - 前端
+
+
+
 ---
+
 
 
 :::tip 
