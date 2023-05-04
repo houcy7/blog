@@ -76,8 +76,8 @@ git clone https://gitee.com/GodLikeZeal/vuepress_blog.git
 
 + 8.打开浏览器 localhost:8080就能访问了
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1go87j8u3iej31hc0u0x6r.jpg)
-![](https://tva1.sinaimg.cn/large/008eGmZEly1go87kg896gj31h70qv4bd.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008eGmZEly1go87j8u3iej31hc0u0x6r.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008eGmZEly1go87kg896gj31h70qv4bd.jpg)
 
 ::: tip
 我把[张益达大佬](https://github.com/yida-zyj)的图片也抄过来了，实在是有点漂亮。手动狗头。
@@ -88,7 +88,7 @@ git clone https://gitee.com/GodLikeZeal/vuepress_blog.git
 与博客有关的配置基本上都在`.vuepress`下的`config.js`设置，配置都写在一个文件内难免会有些过于冗长又不好进行维护，所以
 将配置分成了单独的模块。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1go89etsotzj30ky0cs756.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008eGmZEly1go89etsotzj30ky0cs756.jpg)
 
 | 目录     | 说明   |
 | -------- | ------ |
@@ -107,7 +107,7 @@ git clone https://gitee.com/GodLikeZeal/vuepress_blog.git
 大佬给每一个文章都添加了一个`cover`属性来配置个性图的链接，如果不想为文章指定图片的话，可以设置为`null`.这样可以展示或者展示一张
 随机的图片。
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1go89qzpb1gj30vw0cggmt.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008eGmZEly1go89qzpb1gj30vw0cggmt.jpg)
 
 ## 结语
 至此，你将会得到一个专属于自己的博客空间，作为一个`hello world`达人，还不快去写点什么~    

@@ -217,8 +217,8 @@ public class TestSimpleFactory {
 ```
 
 执行结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdzfz3pcshj31c00u015f.jpg)
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdzfzpefe1j31c00u0alw.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gdzfz3pcshj31c00u015f.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gdzfzpefe1j31c00u0alw.jpg)
 
 假设此时，一个名叫`红孩儿`的妖怪也要吃唐僧肉，需要几步呢？    
 新建`HongHaiEr`类
@@ -269,11 +269,11 @@ public class MonsterFactory {
 ```
 
 编写测试类，运行结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdzgc9kfwej31c00u0am0.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gdzgc9kfwej31c00u0am0.jpg)
 
 
 类图如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdzgk8ydjmj313i0jwabd.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gdzgk8ydjmj313i0jwabd.jpg)
 
 #### 优点
 只需要传入一个正确的参数，就可以获取所需的对象，无须知道其创建的细节。
@@ -284,10 +284,10 @@ public class MonsterFactory {
 #### 实际应用
 
 Calendar中通过不同的时区获得不同的对象
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gdzhk6r1jfj31c00u0h0g.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gdzhk6r1jfj31c00u0h0g.jpg)
 
 Log4j通过类名字或者Class获取Logger
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzhpexm7vj31c00u04dd.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzhpexm7vj31c00u04dd.jpg)
 
 ### 工厂方法模式
 通过定义工厂父类负责定义创建对象的公共接口，而子类则负责生成具体的对象。将类的实例化（具体产品的创建）延迟到工厂类的子类（具体工厂）中完成，即由子类来决定应该实例化（创建）哪一个类。
@@ -416,8 +416,8 @@ public class Taoist implements IMonster {
 ```
 
 编写测试类，运行结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzjyrhn7uj31c00u0gzj.jpg)
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzjzpfrl4j31c00u0qg6.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzjyrhn7uj31c00u0gzj.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzjzpfrl4j31c00u0qg6.jpg)
 
 新增无后台的"野生"妖怪工厂    
 ```java
@@ -458,7 +458,7 @@ public class Wild implements IMonster {
 ```
 
 测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzk4v09rqj31c00u014x.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzk4v09rqj31c00u014x.jpg)
 
 #### 优点
 新增"产品"符合了"开闭原则"，提高了系统的可扩展性
@@ -590,7 +590,7 @@ public class MonsterFactory implements IMonsterFactory {
 ```
 
 编写测试代码，测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzky3vecij31c00u0nbp.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzky3vecij31c00u0nbp.jpg)
 
 新增无后台的"野生"妖怪实例接口
 ```java
@@ -674,7 +674,7 @@ public class MonsterFactory implements IMonsterFactory {
 ```
 
 测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzl2iienfj31c00u0duz.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdzl2iienfj31c00u0duz.jpg)
  
 #### 优点
 具体产品在应用层代码隔离，无须关心创建细节
@@ -733,7 +733,7 @@ public class HungrySingleton {
 ```
 
 编写测试代码，测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0c5eqxfej31c00u018t.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0c5eqxfej31c00u018t.jpg)
 
 #### 优点
 只创建(new)了一次，不存在线程问题
@@ -773,15 +773,15 @@ public class LazySingleton {
 ```
 
 编写测试代码，测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0c6ftpkqj31c00u0qiu.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0c6ftpkqj31c00u0qiu.jpg)
 
 单线程模式下，岁月静好，还是只有一个"孙悟空"。多线程呢？
 
 开启多线程测试代码，结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0ccyaok5j31c00u0k7f.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0ccyaok5j31c00u0k7f.jpg)
 
 再运行一遍
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cc92oqhj31c00u07kh.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cc92oqhj31c00u07kh.jpg)
 
 :::danger 提示
 
@@ -814,45 +814,45 @@ public void testConcurrentLazySingleton2() throws InterruptedException {
 ```
 
 在判断instance是否为空的代码出添加断点，右键，设置为线程模式
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0ce10eq4j31c00u0aor.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0ce10eq4j31c00u0aor.jpg)
 
 情况一：`多线程使用同一个对象`   
 线程一到达判断逻辑
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cfy4pmrj31c00u0tnp.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cfy4pmrj31c00u0tnp.jpg)
 线程一进入方法，并创建instance对象
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cgdc57vj31c00u07i5.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cgdc57vj31c00u07i5.jpg)
 线程一输出结果`singleton.SunWuKong@e47173e`
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cgqj0slj31c00u07ig.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cgqj0slj31c00u07ig.jpg)
 线程二执行判断逻辑，此时instance不为空，直接返回
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0chbtyyjj31c00u016k.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0chbtyyjj31c00u016k.jpg)
 最终执行结果
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0chtpgcgj31c00u07ii.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0chtpgcgj31c00u07ii.jpg)
 
 情况二：`多线程创建了不同对象`    
 线程一到达判断逻辑，结果为真，进入方法体
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0ciayq3aj31c00u016d.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0ciayq3aj31c00u016d.jpg)
 线程二也到达判断逻辑，结果为真，也进入方法体
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cipz96sj31c00u0qgk.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cipz96sj31c00u0qgk.jpg)
 线程二执行创建instance对象，并结束线程
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cjdw71kj31c00u07id.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cjdw71kj31c00u07id.jpg)
 线程一继续执行方法体，创建instance对象，并结束线程
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cjxk57uj31c00u016h.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cjxk57uj31c00u016h.jpg)
 最终结果
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0ck88xvhj31c00u0qh3.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0ck88xvhj31c00u0qh3.jpg)
 
 情况三：`线程将先创建的实例覆盖`    
 线程一到达判断逻辑，结果为真，进入方法体
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cl4jnqbj31c00u0ann.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cl4jnqbj31c00u0ann.jpg)
 线程二也到达判断逻辑，结果为真，也进入方法体
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cljq8yqj31c00u0ano.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cljq8yqj31c00u0ano.jpg)
 线程一继续执行，创建instance对象
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cm33ouzj31c00u0k55.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cm33ouzj31c00u0k55.jpg)
 线程二继续执行，将线程一创建的instance对象覆盖
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cmh6q4nj31c00u0k55.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cmh6q4nj31c00u0k55.jpg)
 线程二结束线程
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cmtz2qjj31c00u0gzk.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cmtz2qjj31c00u0gzk.jpg)
 线程一结束线程，最终结果
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cn5wqpyj31c00u0anv.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cn5wqpyj31c00u0anv.jpg)
 
 :::tip     
 通透！
@@ -962,7 +962,7 @@ public class LockClassLazySingleton {
 ```
 
 编写测试类测试接口，结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cp2p9l6j31c00u0wun.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cp2p9l6j31c00u0wun.jpg)
 
 多线程问题再次出现！
 
@@ -987,26 +987,26 @@ public void testLockClassLazySingleton2() throws InterruptedException {
     countDownLatch.await();
 }
 ```
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cqd18lgj31c00u0h0t.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0cqd18lgj31c00u0h0t.jpg)
 
 #### 一探究竟
 
 （只演示一种情况）
 
 线程一判断instance为空，到达同步代码块
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0crvb5ohj31c00u0dv1.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0crvb5ohj31c00u0dv1.jpg)
 线程二判断instance为空，也到达同步代码块
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0csar043j31c00u0180.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0csar043j31c00u0180.jpg)
 线程二进入同步代码块，此时，线程一为阻塞状态
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge09zd6awoj31c00u0tn1.jpg)
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d06hs0oj31c00u0tmu.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge09zd6awoj31c00u0tn1.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d06hs0oj31c00u0tmu.jpg)
 线程二执行完毕
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d0kw68jj31c00u0wtv.jpg)
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d0yppfvj31c00u04cn.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d0kw68jj31c00u0wtv.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d0yppfvj31c00u04cn.jpg)
 线程一切换为运行态，继续执行，再一次创建了对象
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d1gf1pqj31c00u0ncj.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d1gf1pqj31c00u0ncj.jpg)
 最终结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d21f7j4j31c00u0wsw.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d21f7j4j31c00u0wsw.jpg)
 
 #### 双重检查锁
 因为问题出现在同步代码块内部，将同步代码块中加入一个实例是否为空的校验，进行双重检查
@@ -1044,7 +1044,7 @@ public class DoubleCheckLazySingleton {
 ```
 
 编写测试代码，测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d2zmkf3j31c00u07k4.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d2zmkf3j31c00u07k4.jpg)
 
 虽然上面的代码看似完美，仍然存在指令重排序问题，需要在实例对象前加上`volatile`关键字禁止指令重排序。    
 [单例陷阱——双重检查锁中的指令重排问题](https://www.cnblogs.com/lkxsnow/p/12293791.html)
@@ -1086,7 +1086,7 @@ public class InnerClassSingleton {
 ```
 
 编写测试代码，执行结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d48m8o7j31c00u0ap5.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0d48m8o7j31c00u0ap5.jpg)
 
 :::tip
 由于是内部类的原因，单例对象在创建时不支持动态传参，除此，内部类单例几近完美
@@ -1154,7 +1154,7 @@ public class HungrySingleton2 {
 ```
 
 测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0j7hyvozj31c00u0dw2.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0j7hyvozj31c00u0dw2.jpg)
 
 #### 序列化攻击
 
@@ -1192,7 +1192,7 @@ public class HungrySingleton3 implements Serializable {
 ```
 
 通过序列化后反序列化生成新的对象，测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0jkui96vj31c00u0toa.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0jkui96vj31c00u0toa.jpg)
 
 解决方案：
 1. 不实现序列化接口
@@ -1204,14 +1204,14 @@ private Object readResolve(){
 ```
 
 再次执行测试代码，测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0k6nck9cj31c00u0dvl.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0k6nck9cj31c00u0dvl.jpg)
 
 相关代码
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0k9iw5uwj31c00u04dy.jpg)
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0k9w2m9xj31c00u04hk.jpg)
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0kakfer1j31c00u04gl.jpg)
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0kc327gdj31c00u0wwj.jpg)
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0kcjxx26j31c00u0ask.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0k9iw5uwj31c00u04dy.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0k9w2m9xj31c00u04hk.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0kakfer1j31c00u04gl.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0kc327gdj31c00u0wwj.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1ge0kcjxx26j31c00u0ask.jpg)
 
 ## 原型模式 <Badge text='创建型' />
 原型模式（Prototype）：用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
@@ -1291,7 +1291,7 @@ public class SunWuKong implements IPrototype<SunWuKong>{
 ```
 
 编写测试代码，测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge1r45st59j31c00u0k7j.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1ge1r45st59j31c00u0k7j.jpg)
 
 从结果可见，除了复制的本体不一样，里边包含的属性均相同，包括`金箍棒`，可是复制出来的"猴子"不应该拥有相同的金箍棒
 这种情况被称为`浅克隆`
@@ -1328,7 +1328,7 @@ public class SunWuKong2 implements Cloneable{
 }
 ```
 测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge1rk97f3uj31c00u0wv2.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1ge1rk97f3uj31c00u0wv2.jpg)
 
 :::tip 提示    
 Cloneable接口中并没有实质性的方法，仅仅是一个标记作用；如果直接重写了clone方法，但是没有实现接口的话会抛出`CloneNotSupportedException`异常。    
@@ -1382,7 +1382,7 @@ public class SunWuKong3 implements Cloneable, Serializable {
 ```
 
 测试结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge1s7s11cjj31c00u018y.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1ge1s7s11cjj31c00u018y.jpg)
 
 :::tip    
 此时的武器应该实现序列化接口    
@@ -1554,7 +1554,7 @@ public class Journey2TheWest {
 ```
 
 编写测试代码，结果如下：
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge1v2wepp8j31c00u0k89.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1ge1v2wepp8j31c00u0k89.jpg)
 
 ### 优点
 享元模式的优点在于它能够极大的减少系统中对象的个数。    

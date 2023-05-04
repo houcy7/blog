@@ -18,39 +18,39 @@ categories:
 ## 演示
 
 1.执行命令    
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lcbdgxbj20tu0gegmz.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00lcbdgxbj20tu0gegmz.jpg)
 
 2.下载题目描述和解题代码    
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00ldivz24j21ce0kumzl.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00ldivz24j21ce0kumzl.jpg)
 
 3.解题    
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lfu57d7j21g60u0q6a.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00lfu57d7j21g60u0q6a.jpg)
 
 4.提交力扣    
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lgyosypj22180rcafc.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00lgyosypj22180rcafc.jpg)
 
 5.编写解题思路
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lkigsg7j21g60u0jvp.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00lkigsg7j21g60u0jvp.jpg)
 
 6.提交代码
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00llhegocj221i0km44k.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00llhegocj221i0km44k.jpg)
 
 7.生成解题笔记
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00llvnhe9j20ns07q74m.jpg)
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lmzt50kj21c00u0dlc.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00llvnhe9j20ns07q74m.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00lmzt50kj21c00u0dlc.jpg)
 
 8.发布解题笔记
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lp6elwnj20ve0hgacm.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00lp6elwnj20ve0hgacm.jpg)
 
 9.github actions
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lq6k5szj22520u0gq6.jpg)
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lsmz9vtj221o0u042e.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00lq6k5szj22520u0gq6.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00lsmz9vtj221o0u042e.jpg)
 
 10.博客展示效果
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00ltofubsj21c00u0q8t.jpg)
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lvc9j2hj20u01vvn29.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00ltofubsj21c00u0q8t.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00lvc9j2hj20u01vvn29.jpg)
 点击链接后跳转页面
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h00lvyv922j21c00u00w0.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1h00lvyv922j21c00u00w0.jpg)
 
 
 

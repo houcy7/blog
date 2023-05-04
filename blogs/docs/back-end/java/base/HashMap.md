@@ -12,13 +12,13 @@ categories:
 ## 准备阶段
  + 复制`jdk源码`中的`AbstractMap` `HashMap` `LinkedHashMap`到新的路径下
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdsi4y450yj30g206wmxl.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdsi4y450yj30g206wmxl.jpg)
 
 + 类或者接口之间的依赖关系
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdsibvzj4lj31c00u0jz2.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdsibvzj4lj31c00u0jz2.jpg)
 
 + 修改`HashMap`为`HashMap8`，与jdk中的map区分开
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdsifsn1hxj30jk0bcmy3.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdsifsn1hxj30jk0bcmy3.jpg)
 
 + 可以适当的删除一些注释
 
@@ -144,7 +144,7 @@ public void test2(){
     }
 }
 ```
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdskpmcxejj31c00u0gwj.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdskpmcxejj31c00u0gwj.jpg)
 
 返回值均为大于等于给定容量的2的整数次幂！
 
@@ -184,7 +184,7 @@ n |= n >>> 16
 可以看出，无论给定cap(cap < MAXIMUM_CAPACITY )的值是多少，经过以上运算，其值的二进制所有位都会是1。再将其加1，这时候这个值一定是2的幂次方。当然如果经过运算值大于MAXIMUM_CAPACITY，直接选用MAXIMUM_CAPACITY。
 
 :::tip 提示
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdslg5g7qqj30yq0fstaa.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdslg5g7qqj30yq0fstaa.jpg)
 :::
 
 
@@ -332,7 +332,7 @@ public void test3(){
 ```
 
 测试截图
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdsmunweavj31c00u0dt4.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdsmunweavj31c00u0dt4.jpg)
 
 ### threshold
 官翻：下一次触发reszie的阈值 （容量 * 加载因子）
@@ -480,7 +480,7 @@ static final int hash(Object key) {
 ```
 右位移16位，正好是32bit的一半，自己的高半区和低半区做异或，就是为了混合原始哈希码的高位和低位，以此来加大低位的随机性。而且混合后的低位掺杂了高位的部分特征，这样高位的信息也被变相保留下来。
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdt829h17bj30ga09cjs5.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gdt829h17bj30ga09cjs5.jpg)
 
 ### 保留方法
 为了继承自HashMap的LinkedMap保留的方法
@@ -1011,32 +1011,32 @@ public void test6(){
 
 ### 运行
 1. 未指定map容量大小，使用默认值对table初始化，此时table对象未初始化
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gduxjk9hv7j30ne01omxb.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlgy1gduxjk9hv7j30ne01omxb.jpg)
 2. put 8个元素后，table[0...7]均有一个节点
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduvtxnp2bj30kg0k4q59.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduvtxnp2bj30kg0k4q59.jpg)
 3. 继续put产生hash碰撞，构成单链表
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduvuqx91bj30lk0kmtb9.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduvuqx91bj30lk0kmtb9.jpg)
 4. 元素个数达到12（默认初始容量16乘以默认加载因子0.75）时，数组扩容，扩容后数组大小为32，原数组元素重新放到新数组中
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduvvep6mnj30oc0isad8.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduvvep6mnj30oc0isad8.jpg)
 :::warning 提示
 因为模拟的hash冲突产生的原因是hash完全一致，oldTab[0~7]映射到newTab的数组下标也为[0~7]
 :::
 5. 元素个数达到24（容量32乘以默认加载因子0.75）时，数组第二次扩容，扩容后数组大小为64，原数组元素重新放到新数组中，此时到达`MIN_TREEIFY_CAPACITY=64`，此后如果一个链表的长度超过8个，单链表会转为红黑树
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduw2bz056j30lw0lsn0k.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduw2bz056j30lw0lsn0k.jpg)
 6. put 64个元素后，table[0...7]均有一个单链表，元素个数均为8个
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduvzs08e8j30kc0kgwhm.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduvzs08e8j30kc0kgwhm.jpg)
 7. 继续put元素，下标为0的元素个数大于`树化负载因子：8`，链表转红黑树
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduw1q3izqj30r614otd5.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduw1q3izqj30r614otd5.jpg)
 8. `Collections.shuffle(list);`打乱key的顺序，模拟随机删除
 9. 移除`value=47,hash=7`的元素，移除的元素为单链表中的非头结点，将`next`指针指向前一个对象
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduw61ovj3j30rk14edk2.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduw61ovj3j30rk14edk2.jpg)
 10. 移除`value=7,hash=7`的元素，移除的元素为单链表的头结点，将`next`指针`table[7]`
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduw83z5zaj30nw14642m.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduw83z5zaj30nw14642m.jpg)
 11. 移除`value=64,hash=0`的元素，移除的元素为红黑树中的节点，由于满足jdk判断红黑树过小的条件，红黑树转链表
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduwb38sn8j30mq0kcq5q.jpg)
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduwdz2auej30u00w0grq.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduwb38sn8j30mq0kcq5q.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduwdz2auej30u00w0grq.jpg)
 12.最终移除所有节点，map为空
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gduwesmecxj30kg0cgq40.jpg)
+![](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/007S8ZIlly1gduwesmecxj30kg0cgq40.jpg)
 
 ## 总结
 :::tip

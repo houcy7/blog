@@ -5,9 +5,9 @@ module.exports =
     "author": "侯春宇",
     // "authorAvatar": "/avatar.png",
     // "authorAvatar": "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif",
-    "authorAvatar": "https://tva1.sinaimg.cn/large/e6c9d24ely1go6gkxv8keg2050050mx9.gif",
+    "authorAvatar": "https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1go6gkxv8keg2050050mx9.gif",
     // "logo": "/logo.png",
-    "logo": "https://tva1.sinaimg.cn/large/e6c9d24ely1go6gkxv8keg2050050mx9.gif",
+    "logo": "https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24ely1go6gkxv8keg2050050mx9.gif",
     "startYear": "2017",
     // "record": "你的备案号 ", //icp备案
     // -- 个人信息 end --
@@ -42,8 +42,8 @@ module.exports =
         "juejin": false, //掘金
         "segmentfault": false, //思否
         "csdn": false, //CSDN
-        "wechat": "https://tva1.sinaimg.cn/large/008eGmZEly1goaqpuypj6j30tc12l0wx.jpg", //微信
-        "qq": "https://tva1.sinaimg.cn/large/008eGmZEly1goaqpkhqyjj30u01hddlt.jpg" //QQ
+        "wechat": "https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008eGmZEly1goaqpuypj6j30tc12l0wx.jpg", //微信
+        "qq": "https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008eGmZEly1goaqpkhqyjj30u01hddlt.jpg" //QQ
     },
     // 自我介绍 end
 
